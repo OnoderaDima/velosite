@@ -113,15 +113,25 @@ header > div.banner > .top-menu > nav > ul {
 header > div.banner > .top-menu > nav > ul > li {
     float: left;
     margin: 15px;
+
 }
 
 header > div.banner > .top-menu > nav > ul > li > a {
-    color: #ffffff;
+    color: #dddddd;
     font-size: 1em;
     font-family: Arial, Tahoma;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);    
     cursor: pointer;
+    /* анимация */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;    
+}
+
+header > div.banner > .top-menu > nav > ul > li > a:hover {
+    color: #ffffff;
 }
 
 /* Лейбл */
@@ -189,9 +199,11 @@ div.bike-card > div.bike-picture {
     position: relative;
     width: 480px;
     text-align: center;
+    cursor: pointer;
 }
 
 div.bike-card > div.bike-picture > div.bike-picture-zoom {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
