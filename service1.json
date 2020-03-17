@@ -1,31 +1,42 @@
 {
     "name": "Интерактивный лучный и арбалетный тир",
     "caption": "Уникальные интерактивные тиры для стрельбы из лука и арбалета",
-    "avatar": "",
+    "avatar": "service_1_light.png",
     "form": [
         [
             {
-                "type": "input",
+                "type": "text",
                 "name": "name",
                 "caption": "Имя"
-            },
-            {
-                "type": "tel",
-                "name": "phone",
-                "caption": "Телефон"
             }
         ],
         [
             {
-                "type": "input",
-                "name": "name",
-                "caption": "Имя"
-            },
+                "type": "text",
+                "name": "lastname",
+                "caption": "Фамилия"
+            }
+        ],			
+        [
             {
                 "type": "tel",
                 "name": "phone",
                 "caption": "Телефон"
             }
-        ]
+        ],			
+        [
+            {
+                "type": "email",
+                "name": "email",
+                "caption": "E-mail"
+            }
+        ],			
+        [
+            {
+                "type": "datetime",
+                "name": "datetime",
+                "caption": "Дата и время"
+            }
+        ],			
     ]
 }
